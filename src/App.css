@@ -1,0 +1,234 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+  font-family: "Lato", serif;
+  font-size: 14px;
+}
+.container{
+  max-width: 93%;
+}
+
+.bg-blue{
+  background: #233A95;
+}
+.headerWrapper .top-strip {
+  padding: 8px 0px;
+}
+.headerWrapper .top-strip p{color: white;font-size: 12px; font-weight: 500;}
+
+.secondheadersection {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.secondheadersection .secondmain{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  
+}
+.secondheadersection .secondmain a{
+  text-decoration: none;
+  color: rgb(67, 63, 63);
+}
+.writesomething{
+  margin-left: 4rem;
+}
+.headerleftshow{
+  display: flex;
+  gap: 29px;
+  align-items: center;
+  
+}
+
+.headerleftshow div select{
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.headerWrapper .header{
+  width: 100%;
+  height: auto;
+  padding: 22px 0px;
+}
+.logowrapper img{
+width: 100%;
+}
+.headerWrapper .header .part2 .countryDrop{
+  width: 170px;
+  height: 60px;
+  min-width: 170px;
+  gap: 35px;
+  color: black!important;
+  padding: 10px 15px;
+}
+.headerWrapper .header .part2 .countryDrop{
+  text-align: left;
+  justify-content: flex-start !important;
+  border: 1px solid rgba(0, 0, 0, 0.3)!important;
+  border-radius: 7px!important;
+}
+.headerWrapper .header .part2 .countryDrop .label{
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  color: rgba(0, 0, 0, 0.4) !important;
+  line-height: 16px;
+}
+.headerWrapper .header .part2 .countryDrop .name{
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  color: #233A95  !important;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.headerWrapper .header .part2 .countryDrop span.ml-auto svg{
+opacity: 0.7;
+}
+.ml-3 {
+  margin-left: 1rem; 
+}
+
+.mr-3 {
+  margin-right: 1rem;
+}
+header .headerSearch{
+  width: 60%;
+  height: 60px;
+  background: #f3f4f7;
+  padding: 10px;
+  position: relative;
+  border-radius:10px!important ;
+  border: rgba(0, 0, 0, 0.4);
+}
+header .headerSearch input{
+  background: transparent !important;
+  outline: none !important;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 40px;
+  border: 0px !important;
+  padding: 0px 20px !important;
+}
+header .headerSearch button{
+  position: absolute;
+  top:10px;
+  right: 15px;
+  z-index: 100;
+  min-width: 40px !important;
+  height: 40px!important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  color: #000;
+}
+
+header .headerSearch svg{
+  font-size: 25px;
+}
+
+header .part3 .circle{
+align-items: center;
+justify-content: center;
+min-width: 45px!important;
+height: 45px !important;
+width: 45px!important;
+margin-top: 0.4rem;
+border-radius: 50% !important;
+border: 1px solid rgba(0, 0, 0, 0.1)!important;
+color: black;
+margin-right: 1rem;
+
+}
+header .carttab .price{
+  margin-top: 1rem!important; 
+  margin-right: 0.4rem!important; 
+  font-size: 16px;
+  font-weight: 700;
+}
+ml-2{
+  margin-left: 0.5rem;
+}
+header .part3 .circle svg{
+  font-size: 23px;
+}
+header .part3 .cartbag{
+  background-color: #FFF1EE;
+}
+header .part3 .cartbag svg{
+  color: #ff0000;
+}
+
+.carttab .count {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  background: #ea2b0f;
+  border-radius: 50%;
+  min-width: 18px;
+  height: 18px;
+  width: 18px;
+  color: white;
+  font-size: 12px;
+}
+
+nav .allCatTab{
+  background: #2BBEF9;
+  padding: 11px 16px !important;
+  border-radius: 30px !important;
+}
+nav .allCatTab *{
+  color: #fff;
+}
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+
+nav .allCatTab:hover{
+  background: #2BBEF9; 
+}
+nav .allCatTab .text{
+  font-weight: 600;
+}
+nav .allCatTab .icon1 svg{
+  font-size: 20px!important;
+  margin-right: 0.2rem !important;
+}
+nav .allCatTab .icon2 svg{
+  font-size: 15px!important;
+  margin-left: 0.2rem;
+}
+nav .navPart2 ul{
+  margin-bottom: 0px;
+}
+nav .navPart2 ul li a{
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  border-radius: 25px!important;
+}
+.w-100 {
+  width: 100% !important;
+}
+nav .navPart2 ul li a:hover{
+  background:#f0faff ;
+  color:#2BBEF9;
+}
+.ml-auto{
+  margin: auto;
+}
+nav .navPart2 ul li a svg{
+  font-size: 15px;
+}
