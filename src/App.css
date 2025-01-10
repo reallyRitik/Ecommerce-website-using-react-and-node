@@ -8,6 +8,16 @@ body{
   font-family: "Lato", serif;
   font-size: 14px;
 }
+::-webkit-scrollbar{
+  width: 8px!important;
+  height: 8px!important;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #ccc;
+}
+::-webkit-scrollbar-track{
+  background-color: transparent!important;
+}
 .container{
   max-width: 93%;
 }
@@ -98,7 +108,7 @@ opacity: 0.7;
 .mr-3 {
   margin-right: 1rem;
 }
-header .headerSearch{
+.headerSearch{
   width: 60%;
   height: 60px;
   background: #f3f4f7;
@@ -107,7 +117,7 @@ header .headerSearch{
   border-radius:10px!important ;
   border: rgba(0, 0, 0, 0.4);
 }
-header .headerSearch input{
+ .headerSearch input{
   background: transparent !important;
   outline: none !important;
   font-size: 16px;
@@ -117,10 +127,10 @@ header .headerSearch input{
   border: 0px !important;
   padding: 0px 20px !important;
 }
-header .headerSearch button{
+.headerSearch button{
   position: absolute;
   top:10px;
-  right: 15px;
+  right: 10px;
   z-index: 100;
   min-width: 40px !important;
   height: 40px!important;
@@ -129,8 +139,9 @@ header .headerSearch button{
   color: #000;
 }
 
-header .headerSearch svg{
+.headerSearch svg{
   font-size: 25px;
+  opacity: 0.8;
 }
 
 header .part3 .circle{
@@ -176,6 +187,45 @@ header .part3 .cartbag svg{
   width: 18px;
   color: white;
   font-size: 12px;
+}
+
+.locationModal .MuiPaper-elevation{
+  padding: 25px;
+  position: relative;
+}
+
+.locationModal .closeTab{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #000!important;
+  min-width: 40px!important;
+  width: 40px!important;
+  height: 40px!important;
+  border-radius: 50%!important;
+}
+.locationModal .closeTab svg{
+  font-size: 22px!important;
+}
+
+.locationModal .countryList{
+  margin-bottom: 0px;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-left: -2rem;
+
+}
+.locationModal .countryList li{
+  width: 100%;
+  list-style: none;
+}
+.locationModal .countryList li button{
+  width: 100%;
+  text-transform: capitalize!important;
+  color: #000!important;
+  justify-content: flex-start!important;
+  padding: 10px 20px !important;
 }
 
 nav .allCatTab{

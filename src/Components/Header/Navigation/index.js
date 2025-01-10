@@ -8,7 +8,6 @@ import { IoMdContacts } from "react-icons/io";
 import { TfiWrite } from "react-icons/tfi";
 import AllCategories from '../../AllCategories';
 
-
 const Navigation = ()=>{
     return(
         <>
